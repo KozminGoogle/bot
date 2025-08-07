@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:7
+    container_name: mk_vsp_tg_redis
+    ports:
+      - "6379:6379"
+    restart: always
+    environment:
+      - TZ=Europe/Moscow
+# ...existing code for other services...

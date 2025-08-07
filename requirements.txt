@@ -1,0 +1,6 @@
+aiogram>=3.0.0b7
+SQLAlchemy>=2.0.0
+asyncpg
+psycopg2-binary
+aiogram-redis-storage
+redis
